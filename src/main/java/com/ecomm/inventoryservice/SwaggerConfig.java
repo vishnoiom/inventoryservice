@@ -1,4 +1,4 @@
-package com.egov.matchservice;
+package com.ecomm.inventoryservice;
 
 
 import io.swagger.v3.oas.models.OpenAPI;

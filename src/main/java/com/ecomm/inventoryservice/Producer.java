@@ -1,4 +1,4 @@
-package com.egov.matchservice;
+package com.ecomm.inventoryservice;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

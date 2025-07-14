@@ -1,4 +1,6 @@
-package com.egov.matchservice;
+package com.ecomm.inventoryservice.config;
+
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -8,12 +10,11 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 import org.springframework.web.reactive.function.client.WebClient;
 
-import java.util.List;
+import com.ecomm.inventoryservice.LoggingWebClientFilter;
 
 @Configuration
-public class AppConfig
-{
-    @Autowired
+public class AppConfig {
+	@Autowired
     EurekaDiscoveryClient discoveryClient;
 
     @Bean
